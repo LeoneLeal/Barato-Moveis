@@ -1,0 +1,43 @@
+/* Estilos globais */
+body {
+  background-color: #cfe6fa;
+  color: rgb(0, 0, 0);
+  font-size: x-large;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+/* Estilo para a classe App */
+.App {
+  margin-top: 50px;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Estilo para a lista de munícipes */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Estilo para os itens da lista */
+li {
+  margin-bottom: 20px;
+}
+
+/* Estilo para o cabeçalho */
+header {
+  font-size: xx-large;
+  margin-bottom: 20px;
+}
+
+/* Media query para telas menores */
+@media (max-width: 768px) {
+  body {
+      font-size: large;
+  }
+
+  .App {
+      margin-top: 20px;
+  }
+}
